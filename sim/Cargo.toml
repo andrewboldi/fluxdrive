@@ -1,0 +1,14 @@
+[workspace]
+members = ["magsim", "ridesim", "lbmflow"]
+resolver = "2"
+
+[workspace.dependencies]
+rayon = "1"
+
+[profile.release]
+lto = "thin"
+codegen-units = 1
+
+# tests that do heavy numerics should run optimized even under `cargo test`
+[profile.test]
+opt-level = 2

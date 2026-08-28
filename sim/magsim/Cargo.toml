@@ -1,0 +1,8 @@
+[package]
+name = "magsim"
+version = "0.1.0"
+edition = "2021"
+description = "Magnetostatics engine from scratch: dipole-cloud + induced-iron solver and harmonic model for coaxial flux-modulated magnetic gears"
+
+[dependencies]
+rayon = { workspace = true }

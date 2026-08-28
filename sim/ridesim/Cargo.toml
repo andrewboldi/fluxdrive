@@ -1,0 +1,7 @@
+[package]
+name = "ridesim"
+version = "0.1.0"
+edition = "2021"
+description = "Rider + drivetrain + magnetic-gear slip dynamics: equal-area capture, series-elastic peak shaving, magnetic CVT control"
+
+[dependencies]

@@ -1,0 +1,8 @@
+[package]
+name = "lbmflow"
+version = "0.1.0"
+edition = "2021"
+description = "D2Q9 lattice-Boltzmann CFD from scratch (BGK, Zou-He inlet, momentum-exchange drag) for FluxDrive fairing studies"
+
+[dependencies]
+rayon = { workspace = true }
