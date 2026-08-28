@@ -1,5 +1,16 @@
-
-# Beads / Dolt files (added by bd init)
-.dolt/
-*.db
-.beads-credential-key
+# local tools (blender, typst portable installs)
+/tools/
+# python
+/.venv/
+__pycache__/
+*.pyc
+# rust
+target/
+# downloaded papers (copyright)
+/papers/downloaded/
+# blender backups & heavy render frames
+*.blend1
+/results/frames/
+# archives
+*.tar.xz
+*.tar.gz
